@@ -1,0 +1,145 @@
+<html>
+	<head>
+		<title>HTML File for Students' Test</title>
+		<link rel="stylesheet" href="assets/css/styles.css">
+		<script src="assets/javascript/task1.js"></script>
+		<script src="assets/javascript/task2.js"></script>
+		<script src="assets/javascript/task3.js"></script>
+		<script src="assets/javascript/task4.js"></script>
+		<script src="assets/javascript/task5.js"></script>
+		
+	</head>
+	<body>
+		<div class="header">
+			<div class="container">
+				<h1 class="header-heading">Put Student Names Here</h1>
+			</div>
+		</div>
+		<div class="nav-bar">
+			<div class="container">
+				<ul class="nav">
+					<li><a href="#">Nav Link 1</a></li>
+					<li><a href="#">Nav Link 2</a></li>
+					<li><a href="#">Nav Link 3</a></li>
+					<li><a href="#">Nav Link 4</a></li>
+					<li><a href="#">Nav Link 5</a></li>
+					<li><a href="#">Nav Link 6</a></li>
+					<li><a href="#">Nav Link 7</a></li>
+					<!-- Buttons for Task 3 and Task 4 should be placed here -->
+					
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="container">
+				<div class="main">
+					<h1>Javascript Unit Test</h1>
+					<hr>
+
+					<!-- Paragraphs -->
+					<h3>Basic Directions</h3>
+					<p>This project is meant to assess your understanding of Javascript usage within a webpage.  There are five tasks that you must complete.  The tasks are functionality that will be added to this page.  Inside of the folder you found this html file, you will see a folder called "assets".  Within that, another folder called "javascript" has 5 files labeled task1.js to task5.js.  For each task, place your javascript code within the appropriate file.  The files are already linked to this page in the <b>head</b> of this document.  The instructions for each task are listed below.</p>
+					<hr>
+
+					<h3>Tasks</h3>
+					<p>The tasks that you need to accomplish are listed below.  If you have any questions, feel free to ask me.  If it is over the weekend, feel free to email me at <a href="mailto:akiedes@vtsd.com">akiedes@vtsd.com</a>.  If there is a place on the webpage where an element needs to be added for a task, place it within the area labeled for that task.</p>
+					<ol>
+						<li>When you hover the mouse over the image, a button should appear.  When you click the button, the image should disappear.</li>
+						<li>Create 3 buttons (similar to the one provided for "Task 1") each associated with a different color.  When each button is clicked, change the background of the table to the color the button represents.</li>
+						<li>Add a button to the navigation bar which, when clicked changes the text within the basic directions  to "I Clicked It!".</li>
+						<li>Create a button within the navigation called "clear" which opens a new page with the text "new page has been created".</li>
+						<li>On the form add validation functionality that shows the form field (or its label) as red if the field is empty.  They should turn back to white when the data is entered.</li>
+					</ol>
+					<hr>
+
+					
+					
+					<h3>Project Reminder:</h3>
+					<blockquote>
+						<p>Make sure to cite your sources to maintain the legitimacy of your project!  Extensive commenting of your code is expected</p>
+						<footer>Kiedes - 2016</footer>
+					</blockquote>
+					<hr>
+
+					<h3>Task 1 - The Image</h3>
+					<img onClick = "functionName()" src="assets/img/compIcon.png" id="imageTask1"><br />
+					<button style="display:none" id="buttonTask1">Click Me</button>
+					<hr>
+										
+					<h3>Task 2 - The Table</h3>
+					<!-- Buttons for this task should be entered before the table tag. -->
+					
+					
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>First Name</th>
+								<th>Last Name</th>
+								<th>ID</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th scope="row">1</th>
+								<td>Mark</td>
+								<td>Otto</td>
+								<td>001</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>002</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Larry</td>
+								<td>Cable Guy</td>
+								<td>003</td>
+							</tr>
+						</tbody>
+					</table>
+					
+					<h3>Task 5 - Form</h3>
+					<table>
+						<thead>
+							<tr>
+								<th colspan="2">Please Fill Out the Form Below</th>
+							</tr>
+						</thead>
+						<tr>
+							<td>Name:</td>
+							<td><input type="text" name="fullName" placeholder="Enter your full name." id="fullName"></td>
+						</tr>
+						<tr>
+							<td>Address:</td>
+							<td><input type="text" name="address" placeholder="Enter your address." id="address"></td>
+						</tr>
+						<tr>
+							<td>Phone:</td>
+							<td><input type="text" name="phone" placeholder="Enter your phone number." id="phone"></td>
+						<tr>
+							<td>Email:</td>
+							<td><input type="text" name="email" placeholder="Enter your email address." id="email"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><button>Submit</button></td>
+						</tr>
+					</table>
+					
+					
+				</div>
+				<div class="aside">
+					<h2>CAUTION</h2>
+					<p>This assignment is purposely being given over the course of two days in order to enable you to colloaborate on it at home if needed.  I understand that part of programming is researching solutions that exist in addition to the knowledge that you already have.  That said, you cannot simply copy and paste what you find on the internet into your own project and call it your own.  If you use code from another website, you <b>MUST</b> cite your source in the comments.  In addition, in order to be sure that you understand exactly what is happening in all of your programs, every script needs to be very heavily commented.  Your grade will be based on <b>BOTH</b> whether or not your code works, as well as how you have described the functionality of your code.  I reserve the right to ask you questions about your code after submission as part of your grade if it is not clear that you came up with the solutions yourselves.</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="container">
+				Template used for the basis of this project was obtained from "http://maxdesign.com.au/css-layouts/".  This is an example of citing your source!
+			</div>
+		</div>
+	</body>
+</html>
